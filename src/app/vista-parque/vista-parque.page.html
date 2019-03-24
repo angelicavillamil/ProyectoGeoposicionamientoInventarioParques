@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><!--Vista mapa coordenadas mapa--></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="espacio">
+    <ion-card-header class='tituloparque'>
+      <ion-card-title>PARQUE</ion-card-title>
+    </ion-card-header>
+    <div id='map'></div>
+    <!-- <ion-img src="/assets/imagenes/parque.png"></ion-img> -->
+    <ion-button  class='vistaparque' (click)="irCoordenadaParque()" name="Atras" color="primary">Atras</ion-button>
+    <ion-button class='vistaparque' (click)="mostrarAmbiente()" name="Ambiente" color="primary">Aceptar</ion-button>
+  </ion-card>
+</ion-content>
